@@ -6,7 +6,7 @@ import Image from 'next/image'
 const images = [
   { src: "/img18.jpeg", alt: "Israel and Serah" },
   { src: "/img6.jpeg", alt: "Israe and Serah" },
-  { src: "/img17.jpeg", alt: "Israel and Ser" },
+
   { src: "/img14.jpeg", alt: "Israel and Ser" },
   { src: "/img19.jpeg", alt: "Israel and Ser" },
   { src: "/img16.jpeg", alt: "Israel and Ser" },
