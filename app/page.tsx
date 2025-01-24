@@ -23,11 +23,20 @@ export default function Home() {
       <WeddingCountdown/>
       <OurStory />
       <Gallery />
-      <WeddingParty />
+      
       <Schedule />
       <Venue />
-      <GiftRegistry />
-      <RSVP />
+      <iframe 
+  src="https://docs.google.com/forms/d/e/1FAIpQLSexrpUzfu2Wo47tOwxlGJQAX1hx2IiXoDP2Bt-w0zAUvpBtFA/viewform?embedded=true" 
+  width="440" 
+  height="1260" 
+  frameBorder="0" 
+
+>
+  Loading…
+</iframe>
+
+    
       <Footer />
     </main>
   )

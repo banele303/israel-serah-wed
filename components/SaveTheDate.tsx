@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Head from 'next/head';
+import { motion } from "framer-motion"
 
 export default function SaveTheDate() {
   return (
@@ -9,16 +10,16 @@ export default function SaveTheDate() {
       </Head>
 
       <div className="text-center py-10 ">
-        <h1 className="text-4xl font-header">The Wedding Story</h1>
-        <h2 className="text-lg italic pt-2">Traditional and White Wedding</h2>
-        <p className="mt-4 text-sm">26 April 2025</p>
+        <h1 className="text-4xl font-header">SAVE THE DATE</h1>
+        <h2 className="text-2xl italic py-4">Traditional and White Wedding</h2>
+        <p className="mt-4 text-md py-3 bg-green-800 max-w-[10rem] text-white font-bold rounded-md mx-auto">21 April 2025</p>
       </div>
 
       <div className="text-center py-4">
-        <h3 className="text-2xl italic">SAVE THE DATE</h3>
+
       </div>
 
-      <div className="relative w-full h-96 ">
+      <div className="relative w-full h-full ">
         <Image
           src="/img18.jpeg" // Replace with actual path or URL
           alt="Israel and Serah"
@@ -28,15 +29,18 @@ export default function SaveTheDate() {
         />
       </div>
 
-      <div className="text-center mt-6">
-        <h4 className="text-2xl font-bold">Israel and Serah</h4>
-      
-      </div>
-
+      <motion.h1
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 0.2 }}
+        className="font-cormorant text-center pt-5 italic text-5xl md:text-8xl lg:text-9xl mb-6"
+      >
+        Israel & Serah
+      </motion.h1>
       <div className="mx-auto mt-6 max-w-3xl px-4">
-        <p className='text-xl'>
-          Join us for a day where two hearts, and two cultures intertwine in a celebration of love. 
-          On this special day, we invite you to witness the beautiful union of two families, as we honor tradition 
+        <p className='text-xl leading-7'>
+          Join us for a day where two hearts, and two cultures intertwine in a celebration of love.
+          On this special day, we invite you to witness the beautiful union of two families, as we honor tradition
           with the presentation of the bride price and the heartfelt moment when the bride is handed over to her husband and his family.
         </p>
         <p className='text-xl pt-4'>
@@ -47,18 +51,18 @@ export default function SaveTheDate() {
         </p>
       </div>
 
-      <div className="flex justify-between flex-col items-center mx-4 mt-8 border-t pt-4">
+      <div className="flex justify-between px-[2rem] bg-green-800 flex-col items-center mx-4 mt-8 border-t pt-4">
         <div>
-          <p className="text-sm text-green-800">Theme: White, Cream, Ivory, and a touch of African print</p>
+          <p className="text-md text-white text-center font-bold ">Theme: White, Cream, Ivory, and a touch of African print</p>
         </div>
         <div className="text-right pt-4">
-          <p className="text-sm">Pretoria | 10AM Till Late</p>
-     
+          <p className="text-md text-white font-bold pb-3">Pretoria | 10AM Till 10:45</p>
+
         </div>
       </div>
 
       <footer className="text-center mt-8 pb-6">
-        <p className="italic">Easy to Love</p>
+      #IzzyToLove
       </footer>
     </div>
   );

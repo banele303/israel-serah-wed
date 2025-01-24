@@ -7,21 +7,20 @@ export default function OurStory() {
   const events = [
     {
       title: "How We Met",
-      date: "January 2020",
+      date: "August 2023",
       img:"/img13.jpeg",
-      description: "Our paths crossed unexpectedly at a mutual friend's birthday party. From the moment we started talking, we knew there was something special between us."
-    },
+      description: "August 2023 We met on an Uber ride, and quickly discovered that we went to the same church, a moment that felt like fate bringing us together. A few weeks later, Israel invited Serah out, eagar to spend time with her and get to know  her"},
     {
       title: "Our First Date",
-      date: "February 2020",
+      date: "September 2023",
       img:"/img6.jpeg",
-      description: "We went for a picnic in the park, and spent hours talking, laughing, and getting to know each other. It was the start of something beautiful."
+      description: "We shared an ice cream date in Pretoria, spending hours talking and discovering more about each other. It was the beginning of something truly special."
     },
     {
       title: "The Proposal",
-      date: "December 2024",
+      date: "August 2024",
       img:"/img5.jpeg",
-      description: "On a romantic getaway, surrounded by the beauty of nature, Thato got down on one knee and asked Tshego to spend the rest of their lives together. She said yes!"
+      description: "With the help of family and friends, Israel planned a thoughtful and surprising proposal at a botanical garden – a place where he and Serah had shared their favourite picnic date. Surrounded by natures beauty, he asked her to spend forever with him, creating a moment both heartfelt and unforgettable."
     }
   ]
 

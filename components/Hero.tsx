@@ -1,28 +1,23 @@
-'use client'
+"use client"
 
-import { motion } from 'framer-motion'
-import Image from 'next/image'
+import { motion } from "framer-motion"
+import Image from "next/image"
+import { greatVibes,pinyonScript, alexBrush } from "./ui/fonts"
 
 export default function Hero() {
   return (
     <section id="home" className="relative h-[80vh] flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
-        <Image
-          src="/img4.jpeg"
-          alt="Tshego and Thato"
-          fill
-          className="object-cover"
-          priority
-        />
-        <div className="absolute inset-0 bg-black/40" />
+        <Image src="/img8.jpeg" alt="Wedding Background" fill className="object-cover" priority />
+        <div className="absolute inset-0 bg-black/60" />
       </div>
 
-      <div className="relative z-10 text-center text-white px-4">
+      <div className="relative z-10 text-center text-white px-4 text-shadow-lg">
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="font-cormorant text-6xl md:text-8xl lg:text-9xl mb-6"
+          className={`${alexBrush.className} text-6xl md:text-8xl lg:text-9xl mb-6`}
         >
           Israel & Serah
         </motion.h1>
@@ -31,7 +26,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="font-montserrat text-xl md:text-2xl mb-8"
+          className="text-xl md:text-2xl mb-8"
         >
           21 April 2025
         </motion.p>
@@ -40,9 +35,9 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1 }}
-          className="font-montserrat text-lg md:text-xl max-w-2xl mx-auto"
+          className={`${pinyonScript.className} text-3xl md:text-xl max-w-2xl mx-auto`}
         >
-          Join us as we celebrate our love and begin our journey together
+        Join us to celebrate our God written love story
         </motion.p>
 
         <motion.div
