@@ -36,7 +36,9 @@ export default function GiftRegistry() {
           </motion.h1>
 
           <p className="font-montserrat text-lg text-gray-600 max-w-2xl mx-auto">
-            Your presence at our wedding is the greatest present. However, if you would still like to give us a gift, please bring it to our wedding.
+        
+
+Your presence at our wedding is the greatest present. However, if you would still like to honour us with a gift, please bring it to our wedding.
           </p>
         </motion.div>
 
