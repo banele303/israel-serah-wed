@@ -66,7 +66,7 @@ export default function SaveTheDate() {
 
       <div className="flex justify-between px-[2rem] bg-green-800 flex-col items-center mx-4 mt-8 border-t pt-4">
         <div>
-          <p className="text-md text-white text-center font-bold ">Theme: White, Cream, Ivory, and a touch of African print</p>
+          <p className="text-md text-white text-center font-bold ">Theme: White, Cream, Pearl and a touch of African Print</p>
         </div>
         <div className="text-right pt-4">
           <p className="text-md text-white font-bold pb-3">Centurion | 10:45 Prompt</p>
