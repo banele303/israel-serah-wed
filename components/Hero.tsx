@@ -35,7 +35,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1 }}
-          className={`${pinyonScript.className} text-3xl md:text-xl max-w-2xl mx-auto`}
+          className="text-2xl italic md:text-xl max-w-2xl mx-auto"
         >
         Join us to celebrate our God written love story
         </motion.p>
@@ -47,7 +47,7 @@ export default function Hero() {
           className="mt-12"
         >
           <a
-            href="#rsvp"
+            href="#googleform"
             className="font-montserrat inline-block bg-white text-gray-900 px-8 py-3 rounded-md text-lg font-medium hover:bg-pearl transition-colors duration-300"
           >
             RSVP Now

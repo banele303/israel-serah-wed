@@ -1,5 +1,5 @@
 'use client'
-
+import { pinyonScript} from "./ui/fonts"
 import { motion } from 'framer-motion'
 import { MapPin, Calendar, Clock } from 'lucide-react'
 
@@ -7,15 +7,15 @@ export default function Venue() {
   return (
     <section id="venue" className="py-20 bg-white">
       <div className="container mx-auto px-4">
-        <motion.h2
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          viewport={{ once: true }}
-          className="font-cormorant text-5xl md:text-6xl text-center mb-16"
-        >
-          Venue & Details
-        </motion.h2>
+
+          <motion.h1
+                          initial={{ opacity: 0, y: 20 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          transition={{ duration: 0.8, delay: 0.2 }}
+                          className={`${pinyonScript.className} text-5xl text-center font-bold text-slate-800 md:text-8xl lg:text-9xl mb-6`}
+                        >
+                         Venue & Details
+                         </motion.h1>
 
         <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
           <motion.div
@@ -37,7 +37,7 @@ export default function Venue() {
               <Clock className="w-6 h-6 text-pearl flex-shrink-0 mt-1" />
               <div>
                 <h3 className="font-cormorant text-2xl font-semibold mb-2">Time</h3>
-                <p className="font-montserrat">10:00 AM  - 10:45</p>
+                <p className="font-montserrat">10:45am prompt.</p>
               </div>
             </div>
 

@@ -18,7 +18,7 @@ export default function SaveTheDate() {
                   transition={{ duration: 0.8, delay: 0.2 }}
                   className={`${pinyonScript.className} text-3xl font-bold text-slate-800 md:text-8xl lg:text-9xl mb-6`}
                 >
-                 SAVE THE DATE
+                 Save the Date
                 </motion.h1>
         {/* <h1 className="text-4xl font-header">SAVE THE DATE</h1> */}
         <h2 className="text-2xl italic py-4">Traditional and White Wedding</h2>

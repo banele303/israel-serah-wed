@@ -3,12 +3,13 @@ import { pinyonScript } from "./ui/fonts"
 import { motion } from 'framer-motion'
 
 const events = [
-  { time: "10:45 AM", description: "Guest Arrival" },
-  { time: "11AM - 1PM", description: "Traditional Ceremony Begins" },
-  { time: "1:00 PM - 2:15 PM", description: "Photo & Cocktail Hour" },
-  { time: "2:30 PM", description: "White Wedding Ceremony" },
- { time: "3:45 PM", description: "Reception" },
-  { time: "7:00 PM", description: "Dancing and celebration" },
+  { time: "10:45am", description: "Guest Arrival" },
+  { time: "11am - 1pm", description: "Traditional Ceremony Begins" },
+  { time: "1:00pm - 2:15pm", description: "Photo & Cocktail Hour" },
+  { time: "2:15pm", description: "Guest sitted for Ceremony" },
+  { time: "2:30pm", description: "White Wedding Ceremony" },
+ { time: "3:45pm", description: "Reception" },
+  
 ]
 
 export default function Schedule() {
@@ -36,7 +37,7 @@ export default function Schedule() {
               viewport={{ once: true }}
               className="flex items-center mb-8 last:mb-0"
             >
-              <div className="w-24 font-montserrat font-semibold text-right mr-8">{event.time}</div>
+              <div className="w-34 font-montserrat font-semibold text-right mr-8">{event.time}</div>
               <div className="flex-1">
                 
                 <div className="font-montserrat">{event.description}</div>
