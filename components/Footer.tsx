@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="py-8 bg-white">
+    <footer className="pb-8 mt-[-10rem] bg-white">
       <div className="container mx-auto px-4 text-center">
         <p className="font-montserrat text-gray-600">
 Israel & Serah&apos;s Wedding
