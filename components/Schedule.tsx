@@ -4,8 +4,8 @@ import { motion } from 'framer-motion'
 
 const events = [
   { time: "10:45am", description: "Guest Arrival" },
-  { time: "11am - 1pm", description: "Traditional Ceremony Begins" },
-  { time: "1:00pm - 2:15pm", description: "Photo & Cocktail Hour" },
+  { time: "11:00am ", description: "Traditional Ceremony Begins" },
+  { time: "1:00pm ", description: "Photo & Cocktail Hour" },
   { time: "2:15pm", description: "Guest sitted for Ceremony" },
   { time: "2:30pm", description: "White Wedding Ceremony" },
  { time: "3:45pm", description: "Reception" },

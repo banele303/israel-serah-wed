@@ -37,7 +37,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 1 }}
           className="text-2xl italic md:text-xl max-w-2xl mx-auto"
         >
-        Join us to celebrate our God written love story
+        Join us to celebrate our God, written love story
         </motion.p>
 
         <motion.div
