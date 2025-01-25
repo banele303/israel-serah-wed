@@ -13,6 +13,7 @@ import Footer from '@/components/Footer'
 
 import WeddingCountdown from '@/components/CountDown'
 import GoogleForm from '@/components/GoogleForm'
+import GiftRegistry from '@/components/GiftRegistry'
 
 export default function Home() {
   return (
@@ -26,7 +27,7 @@ export default function Home() {
       
       <Schedule />
       <Venue />
-      
+      <GiftRegistry/>
      <GoogleForm/>
 
     
