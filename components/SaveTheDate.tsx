@@ -69,7 +69,7 @@ export default function SaveTheDate() {
           <p className="text-md text-white text-center font-bold ">Theme: White, Cream, Ivory, and a touch of African print</p>
         </div>
         <div className="text-right pt-4">
-          <p className="text-md text-white font-bold pb-3">Pretoria | 10AM Till 10:45 Prompt</p>
+          <p className="text-md text-white font-bold pb-3">Centurion | 10AM Till 10:45 Prompt</p>
 
         </div>
       </div>
