@@ -37,7 +37,7 @@ export default function Venue() {
               <Clock className="w-6 h-6 text-pearl flex-shrink-0 mt-1" />
               <div>
                 <h3 className="font-cormorant text-2xl font-semibold mb-2">Time</h3>
-                <p className="font-montserrat">10:00 AM till late</p>
+                <p className="font-montserrat">10:00 AM  - 10:45</p>
               </div>
             </div>
 
@@ -46,8 +46,8 @@ export default function Venue() {
               <div>
                 <h3 className="font-cormorant text-2xl font-semibold mb-2">Location</h3>
                 <p className="font-montserrat">The Glass Venue</p>
-                <p className="font-montserrat">151A Baard Road, Raslouw</p>
-                <p className="font-montserrat">Pretoria</p>
+                <p className="font-montserrat leading-8"> 21 April 2025 • The Glass Venue, 151 A Baard Rd, Raslouw, Centurion</p>
+             
               </div>
             </div>
           </motion.div>

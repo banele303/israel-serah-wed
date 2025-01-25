@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Head from 'next/head';
 import { motion } from "framer-motion"
+import { pinyonScript} from "./ui/fonts"
 
 export default function SaveTheDate() {
   return (
@@ -10,7 +11,16 @@ export default function SaveTheDate() {
       </Head>
 
       <div className="text-center py-10 ">
-        <h1 className="text-4xl font-header">SAVE THE DATE</h1>
+        
+        <motion.h1
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8, delay: 0.2 }}
+                  className={`${pinyonScript.className} text-3xl font-bold text-slate-800 md:text-8xl lg:text-9xl mb-6`}
+                >
+                 SAVE THE DATE
+                </motion.h1>
+        {/* <h1 className="text-4xl font-header">SAVE THE DATE</h1> */}
         <h2 className="text-2xl italic py-4">Traditional and White Wedding</h2>
         <p className="mt-4 text-md py-3 bg-green-800 max-w-[10rem] text-white font-bold rounded-md mx-auto">21 April 2025</p>
       </div>
@@ -29,14 +39,17 @@ export default function SaveTheDate() {
         />
       </div>
 
+
       <motion.h1
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, delay: 0.2 }}
-        className="font-cormorant text-center pt-5 italic text-5xl md:text-8xl lg:text-9xl mb-6"
-      >
-        Israel & Serah
-      </motion.h1>
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8, delay: 0.2 }}
+                  className={`${pinyonScript.className} text-4xl   text-center pt-5 font-extrabold text-slate-800 md:text-8xl lg:text-9xl mb-6`}
+                >
+                  Israel & Serah
+                </motion.h1>
+
+     
       <div className="mx-auto mt-6 max-w-3xl px-4">
         <p className='text-xl leading-7'>
           Join us for a day where two hearts, and two cultures intertwine in a celebration of love.
@@ -56,7 +69,7 @@ export default function SaveTheDate() {
           <p className="text-md text-white text-center font-bold ">Theme: White, Cream, Ivory, and a touch of African print</p>
         </div>
         <div className="text-right pt-4">
-          <p className="text-md text-white font-bold pb-3">Pretoria | 10AM Till 10:45</p>
+          <p className="text-md text-white font-bold pb-3">Pretoria | 10AM Till 10:45 Prompt</p>
 
         </div>
       </div>

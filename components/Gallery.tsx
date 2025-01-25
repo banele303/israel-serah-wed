@@ -2,10 +2,11 @@
 
 import { motion } from 'framer-motion'
 import Image from 'next/image'
+import { pinyonScript} from "./ui/fonts"
 
 const images = [
   { src: "/img18.jpeg", alt: "Israel and Serah" },
-  { src: "/img6.jpeg", alt: "Israe and Serah" },
+  
   { src: "/nimg6.jpeg", alt: "Israe and Serah" },
   { src: "/nimg5.jpeg", alt: "Israe and Serah" },
   { src: "/nimg4.jpeg", alt: "Israe and Serah" },
@@ -28,15 +29,18 @@ export default function Gallery() {
   return (
     <section id="gallery" className="py-20 bg-white">
       <div className="container mx-auto px-4">
-        <motion.h2
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          viewport={{ once: true }}
-          className="font-cormorant text-5xl md:text-6xl text-center mb-16"
-        >
-          Our Moments
-        </motion.h2>
+
+
+     <motion.h1
+                                  initial={{ opacity: 0, y: 20 }}
+                                  animate={{ opacity: 1, y: 0 }}
+                                  transition={{ duration: 0.8, delay: 0.2 }}
+                                  className={`${pinyonScript.className} text-5xl   text-center pt-5 font-extrabold text-slate-800 md:text-8xl lg:text-9xl mb-6`}
+                                >
+                                 Our Moments
+                                </motion.h1>
+
+     
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {images.map((image, index) => (

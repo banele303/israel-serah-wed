@@ -71,11 +71,7 @@ export default function Navigation() {
               Gallery
             </Link>
           </li>
-          <li>
-            <Link href="#wedding-party" className="text-gray-800 hover:text-pearl transition duration-300">
-              Wedding Party
-            </Link>
-          </li>
+          
           <li>
             <Link href="#schedule" className="text-gray-800 hover:text-pearl transition duration-300">
               Schedule
@@ -86,11 +82,7 @@ export default function Navigation() {
               Venue
             </Link>
           </li>
-          <li>
-            <Link href="#gift-registry" className="text-gray-800 hover:text-pearl transition duration-300">
-              Gift Registry
-            </Link>
-          </li>
+          
           <li>
             <Link href="#rsvp" className="text-gray-800 hover:text-pearl transition duration-300">
               RSVP

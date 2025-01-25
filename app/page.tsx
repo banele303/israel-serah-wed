@@ -17,7 +17,7 @@ import WeddingCountdown from '@/components/CountDown'
 export default function Home() {
   return (
     <main className="overflow-hidden">
-      <Navigation />
+      <Navigation />    
       <Hero />
       <SaveTheDate />
       <WeddingCountdown/>
@@ -27,8 +27,8 @@ export default function Home() {
       <Schedule />
       <Venue />
       <iframe 
-  src="https://docs.google.com/forms/d/e/1FAIpQLSexrpUzfu2Wo47tOwxlGJQAX1hx2IiXoDP2Bt-w0zAUvpBtFA/viewform?embedded=true" 
-  width="440" 
+  src="https://docs.google.com/forms/d/e/1FAIpQLScfz26B5kx_U3C2iCIxGi0ZghZAGmEFAzbUUGiLKjAiHkB5dg/viewform?embedded=true" 
+  width="400" 
   height="1260" 
   frameBorder="0" 
 

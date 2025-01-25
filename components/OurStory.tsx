@@ -1,5 +1,5 @@
 'use client'
-
+import { pinyonScript } from "./ui/fonts"
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 
@@ -9,7 +9,7 @@ export default function OurStory() {
       title: "How We Met",
       date: "August 2023",
       img:"/img13.jpeg",
-      description: "August 2023 We met on an Uber ride, and quickly discovered that we went to the same church, a moment that felt like fate bringing us together. A few weeks later, Israel invited Serah out, eagar to spend time with her and get to know  her"},
+      description: "August 2023 We met on an Uber ride, and quickly discovered that we went to the same church, a moment that felt like fate bringing us together. A few weeks later, Israel invited Serah out, eagar to spend time with her and get to know  her."},
     {
       title: "Our First Date",
       date: "September 2023",
@@ -20,22 +20,24 @@ export default function OurStory() {
       title: "The Proposal",
       date: "August 2024",
       img:"/img5.jpeg",
-      description: "With the help of family and friends, Israel planned a thoughtful and surprising proposal at a botanical garden – a place where he and Serah had shared their favourite picnic date. Surrounded by natures beauty, he asked her to spend forever with him, creating a moment both heartfelt and unforgettable."
+      description: "With the help of family and friends, Israel planned a thoughtful and surprising proposal at a botanical garden – a place where he and Serah had shared their favourite picnic date. Surrounded by nature's beauty, he asked her to spend forever with him, creating a moment both heartfelt and unforgettable."
     }
   ]
 
   return (
-    <section id="our-story" className="py-20 bg-pearl/10">
+    <section id="our-story" className="py-20 bg-white">
       <div className="container mx-auto px-4">
-        <motion.h2
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          viewport={{ once: true }}
-          className="font-cormorant text-5xl md:text-6xl text-center mb-16"
-        >
-          Our Love Story
-        </motion.h2>
+        
+
+          <motion.h1
+                          initial={{ opacity: 0, y: 20 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          transition={{ duration: 0.8, delay: 0.2 }}
+                          className={`${pinyonScript.className} text-5xl   text-center pt-5 font-extrabold text-slate-800 md:text-8xl lg:text-9xl mb-6`}
+                        >
+                          Our Love Story
+                        </motion.h1>
+   
 
         <div className="max-w-4xl mx-auto">
           {events.map((event, index) => (

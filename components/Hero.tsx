@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import Image from "next/image"
-import { greatVibes,pinyonScript, alexBrush } from "./ui/fonts"
+import { pinyonScript, alexBrush } from "./ui/fonts"
 
 export default function Hero() {
   return (
